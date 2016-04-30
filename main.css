@@ -1,0 +1,71 @@
+body {
+ margin: auto;
+}
+
+.wrap {
+  position: relative;
+  height: 100%;
+  min-width: 400px;
+  min-height: 800px;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 50%;
+  width: 100%;
+  height: 50%;
+}
+
+.title {
+  font-size: 120px;
+  font-family: 'Avant Garde';
+  color: white;
+}
+
+.top-color {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #8DD3F7;
+  text-align: center;
+}
+
+.bottom-color {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+}
+
+.profile-pic {
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  margin: 8% 35%;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+.icon-container {
+  text-align: center;
+  padding: 0px;
+}
+
+a i{
+  color: #35F5CC;
+}
+
+.glyphicon {
+  font-size: 60px;
+  padding: 15px;
+}
+
+.fa {
+  padding: 15px;
+}
