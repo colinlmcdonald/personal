@@ -3,28 +3,33 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/styles.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Colin McDonald</title>
 </head>
 <body>
-  <div class='wrap'>
-      <div class='top-color'>
-        <h1 class='title'><div id='first-name'>colin</div>mcdonald</h1>
-        <img class='profile-pic' src='images/DSC_0724rgc-X2.jpg'>
+  <div class='header'>
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='title'>colin mcdonald</div>
+        <div class='profile-pic'><img src='images/DSC_0724rgc-X2.jpg' class='img-fluid'></div>
+      </div>
     </div>
-    <div class ='bottom-color'>
-      <div class ='portfolio-container'>
-        <a href='https://polislife.herokuapp.com'><img class='portfolio-image' src='images/polis.png'></a>
-        <a href='https://jobber-logger.herokuapp.com'><img class='portfolio-image' src='images/jobber-logger.png'>
-        <a href='https://artist-ly.herokuapp.com'><img class='portfolio-image' src='images/artist-ly.png'>
-        <a href='https://tga-fightclub.herokuapp.com'><img class='portfolio-image' src='images/tga-fightclub.png'>
-      </div>
-      <div class='icon-container'>
-        <a href='https://www.github.com/colinlmcdonald'><i class="fa fa-github fa-5x"></i></a>
-        <a href='https://www.linkedin.com/in/colinlmcdonald'><i class='fa fa-linkedin fa-5x'></i></a>
-        <a href='https://www.medium.com/@colinlmcdonald'><i class='fa fa-medium fa-5x'></i></a> <br>
-        <a href='mailto:colinlmcdonald@yahoo.com'><i class='fa fa-envelope-o fa-5x'></i></a>
-      </div>
+  </div>
+  <div class='container-fluid portfolio-container'>
+    <div class='row'>
+      <div class='col-sm-1'><img class='img-fluid' src='images/polis.png'></div>
+      <div class='col-sm-1 portfolio-img'><img class='img-fluid' src='images/jobber-logger.png'></div>
+      <div class='col-sm-1 portfolio-img'><img class='img-fluid' src='images/artist-ly.png'></div>
+      <div class='col-sm-1 portfolio-img'><img class='img-fluid' src='images/tga-fightclub.png'></div>
+    </div>
+  </div>
+  <div class='container-fluid icon-container'>
+    <div class='row'>
+      <a href='https://www.github.com/colinlmcdonald'><i class="col-xs-3 fa fa-github"></i></a>
+      <a href='https://www.linkedin.com/in/colinlmcdonald'><i class='col-xs-3 fa fa-linkedin'></i></a>
+      <a href='https://www.medium.com/@colinlmcdonald'><i class='col-xs-3 fa fa-medium'></i></a>
+      <a href='mailto:colinlmcdonald@yahoo.com'><i class='col-xs-3 fa fa-envelope-o'></i></a>
     </div>
   </div>
 </body>

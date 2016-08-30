@@ -1,70 +1,36 @@
-body {
-  margin: 0px;
-  background-color: #fdf2d4;
-}
 
-.wrapper {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.top-color {
-  display: flex;
-  justify-content: space-around;
-  flex: 1 100%;
+.header {
   background-color: #121416;
-  height: 300px;
-  border-bottom: solid white 5px;
+  border-bottom: solid 5px white;
 }
 
 .title {
-  font-size: 120px;
-  font-family: "Helvetica";
-  color: #fdf2d4;
-  /*text-align: center;*/
-  margin-top: 40px;
-  line-height: 100px;
-}
-
-.portfolio-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 50px;
-  margin-top: 50px;
-  background-color: white;
-}
-
-.portfolio-image {
-  height: 300px;
-  padding: 30px;
-}
-
-.icon-container {
+  font-size: 18vw;
+  line-height: 16vw;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  flex-wrap: wrap;
-  background-color: #121416;
-  height: 150px;
-  border-top: solid white 5px;
-}
-
-.fa {
-  padding: 35px;
+  color: #fdf2d4;
 }
 
 .profile-pic {
-  /*border-radius: 20px;*/
-  height: 250px;
-  margin-top: 25px;
+  margin: 5vw;
 }
 
-.bottom-color {
-  flex: 1 100%;
+.portfolio-container {
+  background-color: #bbb9c7;
+  padding: 15px;
 }
 
-a {
+.portfolio-img {
+  margin-top: 15px;
+}
+
+.icon-container i {
+  font-size: 13vw;
+  text-align: center;
   color: #fdf2d4;
+}
+
+.icon-container {
+  border-top: solid 5px white;
+  background-color: #121416;
 }
