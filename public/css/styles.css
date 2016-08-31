@@ -1,3 +1,6 @@
+html, body {
+  height: 100%;
+}
 
 .header {
   background-color: #121416;
@@ -12,7 +15,9 @@
 }
 
 .profile-pic {
-  margin: 5vw;
+  /*margin: 5vw;*/
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
 
 .portfolio-container {
@@ -21,7 +26,7 @@
 }
 
 .portfolio-img {
-  margin-top: 15px;
+  margin: 2vw auto;
 }
 
 .icon-container i {
@@ -33,4 +38,40 @@
 .icon-container {
   border-top: solid 5px white;
   background-color: #121416;
+}
+
+@media (min-width: 768px) {
+  .profile-container {
+    padding: 15px;
+  }
+
+  .portfolio-container {
+    /*height: 72%;*/
+  }
+
+  .profile-pic {
+    margin: 1vw;
+    width: 60%;
+    float: right;
+  }
+
+  .portfolio-img .img-fluid {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 12vw;
+    text-align: left;
+    line-height: 10vw;
+    margin-top: 2vw;
+  }
+
+  .icon-container {
+    padding: 3vw;
+  }
+
+  .icon-container i {
+    font-size: 4vw;
+  }
 }
