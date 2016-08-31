@@ -58,6 +58,7 @@ html, body {
   .portfolio-img .img-fluid {
     width: 80%;
     margin: 0 auto;
+    border: solid 4px rgba(0, 0, 0, 0.8);
   }
 
   .title {
