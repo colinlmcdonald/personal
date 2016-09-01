@@ -4,7 +4,7 @@ html, body {
 
 .header {
   background-color: #121416;
-  border-bottom: solid 5px white;
+  border-bottom: solid 3px #8479ca;
 }
 
 .title {
@@ -21,7 +21,6 @@ html, body {
 }
 
 .portfolio-container {
-  background-color: #bbb9c7;
   padding: 15px;
 }
 
@@ -36,7 +35,7 @@ html, body {
 }
 
 .icon-container {
-  border-top: solid 5px white;
+  border-top: solid 3px #8479ca;
   background-color: #121416;
 }
 
@@ -58,7 +57,7 @@ html, body {
   .portfolio-img .img-fluid {
     width: 80%;
     margin: 0 auto;
-    border: solid 4px rgba(0, 0, 0, 0.8);
+    border: solid 2px black;
   }
 
   .title {
