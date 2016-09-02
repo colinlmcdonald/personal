@@ -1,10 +1,10 @@
 html, body {
   height: 100%;
+  font: 'Helvetica';
 }
 
 .header {
   background-color: #121416;
-  border-bottom: solid 3px #8479ca;
 }
 
 .title {
@@ -20,12 +20,52 @@ html, body {
   margin-bottom: 2vw;
 }
 
-.portfolio-container {
-  padding: 15px;
+.about-me {
+  text-align: center;
+  font-size: 6vw;
+  margin: 2vw;
+}
+
+.portfolio-item {
+  padding: 45px 21px;
+  text-align: center;
 }
 
 .portfolio-img {
   margin: 2vw auto;
+}
+
+.portfolio-description-container {
+  margin: 0 50px;
+}
+
+.portfolio-description-container p {
+  color: gray;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.portfolio-description-header {
+  color: black;
+  margin-top: 45px;
+}
+
+.portfolio-description-header iframe {
+  margin-top: 10px;
+}
+
+.btn-sm {
+  margin: 2px;
+}
+
+.btn:hover {
+  cursor: default !important;
+}
+
+.btn-no-hover:hover {
+  background-color: #0275d8 !important;
+      color: #fff !important;
+    border-color: #0275d8 !important;
 }
 
 .icon-container i {
@@ -35,17 +75,12 @@ html, body {
 }
 
 .icon-container {
-  border-top: solid 3px #8479ca;
   background-color: #121416;
 }
 
 @media (min-width: 768px) {
   .profile-container {
-    padding: 15px;
-  }
-
-  .portfolio-container {
-    /*height: 72%;*/
+    /*padding: 15px;*/
   }
 
   .profile-pic {
@@ -54,17 +89,35 @@ html, body {
     float: right;
   }
 
-  .portfolio-img .img-fluid {
-    width: 80%;
+  .about-me {
+    font-size: 2vw;
+    color: black;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.2);
+    padding: 80px;
+    margin-top: 0px;
+  }
+
+  .portfolio-item {
+    text-align: left;
+  }
+
+  .portfolio-img {
     margin: 0 auto;
-    border: solid 2px black;
+  }
+
+  .portfolio-img .img-fluid {
+    margin: 0 auto;
+  }
+
+  .portfolio-description-header {
+    margin-top: 0;
   }
 
   .title {
     font-size: 12vw;
     text-align: left;
     line-height: 10vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
   }
 
   .icon-container {
