@@ -64,8 +64,8 @@ html, body {
 
 .btn-no-hover:hover {
   background-color: #0275d8 !important;
-      color: #fff !important;
-    border-color: #0275d8 !important;
+  color: #fff !important;
+  border-color: #0275d8 !important;
 }
 
 .icon-container i {
@@ -76,6 +76,12 @@ html, body {
 
 .icon-container {
   background-color: #121416;
+  padding: 3vw;
+}
+
+.breakline {
+  padding: 80px;
+  margin: 2vw;
 }
 
 @media (min-width: 768px) {
@@ -120,11 +126,16 @@ html, body {
     margin-top: 1vw;
   }
 
+  .breakline {
+    border-top: solid 2px rgba(0, 0, 0, 0.2);
+  }
+
   .icon-container {
     padding: 2vw;
   }
 
   .icon-container i {
     font-size: 4vw;
+    margin-right: 2vw;
   }
 }
