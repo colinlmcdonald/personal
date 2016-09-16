@@ -35,6 +35,10 @@ html, body {
   margin: 2vw auto;
 }
 
+.portfolio-item i {
+  color: black;
+}
+
 .portfolio-description-container {
   margin: 0 50px;
 }
@@ -104,7 +108,7 @@ html, body {
   }
 
   .portfolio-item {
-    text-align: left;
+    text-align: justify;
   }
 
   .portfolio-img {
@@ -117,6 +121,15 @@ html, body {
 
   .portfolio-description-header {
     margin-top: 0;
+  }
+
+  .portfolio-description {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .portfolio-descrption-text {
+    margin-bottom: 0px;
   }
 
   .title {

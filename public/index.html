@@ -24,9 +24,20 @@
   <div class='container-fluid portfolio-container'>
     <div class='row portfolio-item'>
       <div class='col-sm-1 col-md-4 offset-md-2 portfolio-img'><a href='https://polislife.herokuapp.com' target='_blank'><img class='img-fluid' src='images/polis.png'></a></div>
-      <div class='col-md-4 portfolio-description-container'>
-      <h1 class='portfolio-description-header'>Polislife</h1>
-      <p>Polis uses the browser's native support for geolocation combined with the Google Maps API and GovTrack API to find your local congressional representative. See how they voted and vote yourself to see how your views match-up!</p>
+      <div class='col-md-4 portfolio-description-container container'>
+        <div class='row portfolio-description-header'>
+          <div class='col-sm-6'>
+            <h1>Polislife</h1>
+          </div>
+          <div class='offset-sm-4 col-sm-2'>
+            <a href='//github.com/colinlmcdonald/polislife' target='_blank'><i class='fa fa-github fa-3x'></i></a>
+          </div>
+        </div>
+      <div class='row portfolio-description'>
+        <div class='col-sm-12'>
+          <p>Polis uses the browser's native support for geolocation combined with the Google Maps API and GovTrack API to find your local congressional representative. See how they voted and vote yourself to see how your views match-up!</p>
+        </div>
+      </div>
       <div class='portfolio-tech'><button class='btn btn-primary btn-sm btn-no-hover'>React</button><button class='btn btn-primary btn-sm btn-no-hover'>Redux</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Node</button><button class='btn btn-primary btn-sm btn-no-hover'>MongoDB</button><button class='btn btn-primary btn-sm btn-no-hover'>Mocha</button><button class='btn btn-primary btn-sm btn-no-hover'>Chai</button><button class='btn btn-primary btn-sm btn-no-hover'>Enzyme</button><button class='btn btn-primary btn-sm btn-no-hover'>Sinon</button>
       </div>
       </div>
@@ -37,12 +48,20 @@
           <img class='img-fluid' src='images/reactGo.png'>
         </a>
       </div>
-      <div class='col-md-4 portfolio-description-container'>
-        <div class='row portfolio-description-header'>
-          <h1 class='col-sm-6'>reactGo</h1>
-          <a class="github-button" href="https://github.com/reactGo/reactGo" data-icon="octicon-star" data-style="mega" data-count-href="/reactGo/reactGo" data-count-api="/repos/reactGo/reactGo#stargazers_count" data-count-aria-label="# reactGo on GitHub" aria-label="Star reactGo on GitHub">Star</a>
+      <div class='col-md-4 portfolio-description-container container'>
+          <div class='row portfolio-description-header'>
+            <div class='col-md-6'>
+              <h1 class=''>reactGo</h1>
+            </div>
+              <div class='offset-md-2 col-md-4 github-star'>
+              <a class="github-button" href="https://github.com/reactGo/reactGo" data-icon="octicon-star" data-style="mega" data-count-href="/reactGo/reactGo" data-count-api="/repos/reactGo/reactGo#stargazers_count" data-count-aria-label="# reactGo on GitHub" aria-label="Star reactGo on GitHub">Star</a>
+              </div>
+          </div>
+        <div class='row portfolio-description'>
+          <div class='col-sm-12'>
+            <p>A github open source project I contribute to. Your one-stop solution for a full-stack app featuring universal React. I increased their test coverage by 10x.</p>
+          </div>
         </div>
-        <p>A github open source project I've contributed to. Your one-stop solution for a full-stack app featuring universal React. I increased their test coverage by 10x.</p>
         <div class='portfolio-tech'>
           <button class='btn btn-primary btn-sm btn-no-hover'>Mocha</button><button class='btn btn-primary btn-sm btn-no-hover'>Chai</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Enzyme</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Sinon</button>
         </div>
@@ -50,42 +69,72 @@
     </div>
   </div>
   <div class='row portfolio-item'>
-      <div class='col-sm-1 col-md-4 offset-md-2 portfolio-img'>
-        <a href='https://www.github.com/colinlmcdonald/react-redux-webpack' target='_blank'>
-          <img class='img-fluid' src='images/react-redux-webpack.png'>
-        </a>
-      </div>
-      <div class='col-md-4 portfolio-description-container'>
-        <div class='row portfolio-description-header'>
-          <h1 class='col-sm-6'>React Boilerplate</h1>
+    <div class='col-sm-1 col-md-4 offset-md-2 portfolio-img'>
+      <a href='https://www.github.com/colinlmcdonald/react-redux-webpack' target='_blank'>
+        <img class='img-fluid' src='images/react-redux-webpack.png'>
+      </a>
+    </div>
+    <div class='col-md-4 portfolio-description-container container'>
+      <div class='row portfolio-description-header'>
+        <div class='col-sm-6'>
+          <h1>React Boilerplate</h1>
+        </div>
+        <div class='offset-sm-2 col-sm-4 github-star'>
           <a class="github-button" href="https://github.com/colinlmcdonald/react-redux-webpack" data-icon="octicon-star" data-style="mega" data-count-href="/colinlmcdonald/react-redux-webpack" data-count-api="/repos/colinlmcdonald/react-redux-webpack#stargazers_count" data-count-aria-label="# react-redux-webpack on GitHub" aria-label="Star react-webpack-redux on GitHub">Star</a>
         </div>
-        <p>A github open source project I started. My goal with this project is to show the minimum that it takes to get a project off the ground in React using Webpack with a Node server. It has since grown to show a couple of examples--one in just React, and the other converted from just React to React and Redux.</p>
-        <div class='portfolio-tech'>
-          <button class='btn btn-primary btn-sm btn-no-hover'>Mocha</button><button class='btn btn-primary btn-sm btn-no-hover'>Chai</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Enzyme</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Sinon</button>
+      </div>
+      <div class='row portfolio-description'>
+        <div class='col-sm-12'>
+          <p>A github open source project I started. My goal with this project is to show the minimum that it takes to get a project off the ground in React using Webpack with a Node server. It has since grown to show a couple of examples--one in just React, and the other converted from just React to React and Redux.</p>
         </div>
+      </div>
+      <div class='portfolio-tech'>
+        <button class='btn btn-primary btn-sm btn-no-hover'>Mocha</button><button class='btn btn-primary btn-sm btn-no-hover'>Chai</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Enzyme</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Sinon</button>
       </div>
     </div>
   </div>
     <div class='row portfolio-item'>
       <div class='col-sm-1 col-md-4 offset-md-2 portfolio-img'><a href='https://artist-ly.herokuapp.com' target='_blank'><img class='img-fluid' src='images/artist-ly.png'></a></div>
-      <div class='col-md-3 portfolio-description-container'>
-      <h1 class='portfolio-description-header'>Artist-ly</h1>
-      <p>Search for an artist using the Spotify API. Click on an image to see the top tracks for that artist. Custom player built using the HTML5 audio player.
-      <div class='portfolio-tech'>
-      <button class='btn btn-primary btn-sm btn-no-hover'>JQuery</button><button class='btn btn-primary btn-sm btn-no-hover'>Bootstrap</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Underscore</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Responsive Design</button>
-      </div>
+      <div class='col-md-4 portfolio-description-container container'>
+        <div class='row portfolio-description-header'>
+          <div class='col-sm-6'>
+            <h1>Artist-ly</h1>
+          </div>
+          <div class='offset-sm-4 col-sm-2'>
+            <a href='//github.com/colinlmcdonald/artistly' target='_blank'><i class='fa fa-github fa-3x'></i></a>
+          </div>
+        </div>
+        <div class='row portfolio-description'>
+          <div class='col-sm-12'>
+            <p>Search for an artist using the Spotify API. Click on an image to see the top tracks for that artist. Custom player built using the HTML5 audio player.
+            </p>
+          </div>
+        </div>
+        <div class='portfolio-tech'>
+          <button class='btn btn-primary btn-sm btn-no-hover'>JQuery</button><button class='btn btn-primary btn-sm btn-no-hover'>Bootstrap</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Underscore</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Responsive Design</button>
+        </div>
       </div>
     </div>
     <div class='row portfolio-item'>
       <div class='col-sm-1 col-md-4 offset-md-2 portfolio-img'><a href='https://tga-fightclub.herokuapp.com' target='_blank'><img class='img-fluid' src='images/tga-fightclub.png'></a></div>
-      <div class='col-md-4 portfolio-description-container'>
-      <h1 class='portfolio-description-header'>Frenemy</h1>
-      <p>Battle my friends to see who is my ‘best’ friend. Click on a picture to see their stats and how to upgrade them. Click two people to fight and see who is my 'best' friend!
-      <div class='portfolio-tech'>
-        <button class='btn btn-primary btn-sm btn-no-hover'>React</button><button class='btn btn-primary btn-sm btn-no-hover'>Redux</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Node</button>
-      </div>
-      </div>
+      <div class='col-md-4 portfolio-description-container container'>
+        <div class='row portfolio-description-header'>
+          <div class='col-sm-6'>
+            <h1>Frenemy</h1>
+          </div>
+          <div class='offset-md-4 col-md-2'>
+            <a href='//github.com/BrickCrunchers/make-me-super' target='_blank'><i class='fa fa-github fa-3x'></i></a>
+          </div>
+        </div>
+        <div class='row portfolio-description'>
+          <div class='col-sm-12'>
+            <p>Battle my friends to see who is my ‘best’ friend. Click on a picture to see their stats and how to upgrade them. Click two people to fight and see who is my 'best' friend!
+            </p>
+          </div>
+        </div>
+        <div class='portfolio-tech'>
+          <button class='btn btn-primary btn-sm btn-no-hover'>React</button><button class='btn btn-primary btn-sm btn-no-hover'>Redux</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>Node</button>
+        </div>
       </div>
     </div>
     <div class='row portfolio-item'>
@@ -94,9 +143,20 @@
           <img class='img-fluid' src='images/jobber-logger.png'>
         </a>
       </div>
-      <div class='col-md-4 portfolio-description-container'>
-        <h1 class='portfolio-description-header'>Jobber Logger</h1>
-        <p>Streamlines the your application process while you search for jobs.</p>
+      <div class='col-md-4 portfolio-description-container container'>
+        <div class='row portfolio-description-header'>
+          <div class='col-sm-10'>
+          <h1>Jobber Logger</h1>
+          </div>
+          <div class='col-sm-2'>
+            <a href='//github.com/BrickCrunchers/brickcrunchers' target='_blank'><i class='fa fa-github fa-3x'></i></a>
+          </div>
+        </div>
+        <div class='row portfolio-description'>
+          <div class='col-sm-12'>
+            <p class='portfolio-descrption-text'>Streamlines the your application process while you search for jobs.</p>
+          </div>
+        </div>
         <div class='portfolio-tech'>
           <button class='btn btn-primary btn-sm btn-no-hover'>Angular</button><button class='btn btn-primary btn-sm btn-no-hover'>Node</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>MongoDB</button>
         </div>
@@ -108,9 +168,20 @@
           <img class='img-fluid' src='images/vanilla-image-gallery.png'>
         </a>
       </div>
-      <div class='col-md-4 portfolio-description-container'>
-        <h1 class='portfolio-description-header'>Javascript Image Gallery</h1>
-        <p>An image gallery with drag and drop functionality created using native Javascript DOM methods.</p>
+      <div class='col-md-4 portfolio-description-container container'>
+        <div class='row portfolio-description-header'>
+          <div class='col-sm-8'>
+            <h1>Image Gallery</h1>
+          </div>
+          <div class='offset-sm-2 col-sm-2'>
+            <a href='//github.com/colinlmcdonald/image-gallery-javascript' target='_blank'><i class='fa fa-github fa-3x'></i></a>
+          </div>
+        </div>
+        <div class='row portfolio-description'>
+          <div class='col-sm-12'>
+            <p class='portfolio-descrption-text'>An drag and drop image gallery created using native Javascript DOM methods.</p>
+          </div>
+        </div>
         <div class='portfolio-tech'>
           <button class='btn btn-primary btn-sm btn-no-hover'>Javascript</button><button class='btn btn-primary btn-sm btn-no-hover'>SASS</button><button type='button' class='btn btn-primary btn-sm btn-no-hover'>HTML5</button>
         </div>
